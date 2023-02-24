@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="script.css">
+
     <script src="script.js"> </script>
 
 
 </head>
-<body style="background-color: rgb(58, 196, 196);">
+<body id="background" onclick="changeBackground()" background-color =.changeColor>
     <input type="text" id="name" name="name" required
        minlength="4" maxlength="20" size="30" onchange="printText()">
        <h2 class="inputValue"> </h2>
     <h1> Ethan Hunt   </h1>
+    <table borders="1" width="450">
+
+        <tr> 
+            <th>Food type</th>
+            <th>Alternative</th>
+        </tr>
+        <tr> 
+            <td> Cheese Burger </td>
+            <td> Avocado </td>
+        </tr>
+        <tr>
+            <td> Bacon </td>
+            <td> Eggs </td>
+        </tr>
+    </table>
     <h2> Mini Bio  </h2>
     <h3> Ethan Hunt is a 24-year-old junior manager who enjoys upcycling, watching sport and theatre. He is giving and exciting, but can also be very unfriendly and a bit untrustworthy.
 

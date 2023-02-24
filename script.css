@@ -1,0 +1,21 @@
+h1 {
+    color:cornflowerblue;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    background-color: grey;
+  }
+.changeColor {
+    background-color: yellow;
+
+
+  }
+  .changeColor1 {
+    background-color: brown;
+
+
+  }
